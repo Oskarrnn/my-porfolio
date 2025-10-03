@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Description and Main body of text
+            {/* Description and Main body of text */}
           </p>
           <div>
             <Link
