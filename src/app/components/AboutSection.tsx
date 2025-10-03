@@ -64,7 +64,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            28-year-old graduate engineer in Computer Engineering (Datateknik) from Chalmers University of Technology. I have a genuine passion for understanding how things work , and I'm highly motivated to create solutions and keep developing my skills.
+            28-year-old graduate engineer in Computer Engineering (Datateknik) from Chalmers University of Technology. I have a genuine passion for understanding how things work , and I&apos;m highly motivated to create solutions and keep developing my skills.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
