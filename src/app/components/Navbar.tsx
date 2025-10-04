@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
-// import MenuOverlay from "./MenuOverlay";
+import MenuOverlay from "./MenuOverlay";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 const navLinks = [
@@ -59,7 +59,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      {/* {navbarOpen ? <MenuOverlay links={navLinks} /> : null} */}
+      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
     </nav>
   );
 };

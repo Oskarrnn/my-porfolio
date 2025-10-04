@@ -57,7 +57,8 @@ const EmailSection = () => {
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect, <br />
-          reach me at {" "}
+          reach me at: <br />
+          {" "}
           <a
             href="mailto:oskar.fforsell@gmail.com"
             className="text-blue-400 underline hover:text-blue-500"
